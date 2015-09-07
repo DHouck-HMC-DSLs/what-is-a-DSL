@@ -117,9 +117,9 @@ might add to your partner's work?
 ## Tasks
 
 - [ ] Read the [Assignment HOWTO]
-- [ ] Read Fowler's [introduction to DSLs][Fowler]
-- [ ] Find a DSL
-- [ ] Describe your DSL's implementation and semantics in `my-dsl.md`
+- [x] Read Fowler's [introduction to DSLs][Fowler]
+- [x] Find a DSL
+- [x] Describe your DSL's implementation and semantics in `my-dsl.md`
 - [ ] Write a ContextFree program in `firstname_lastname.cfdg`
 - [ ] Make and save a pretty picture in `firstname_lastname_variant.png`
 - [ ] Answer the questions in `context-free.md`
