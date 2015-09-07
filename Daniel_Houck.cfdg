@@ -1,0 +1,23 @@
+startshape many_pentagram
+
+// This was based on a description of a shape in a fiction book I happen to be
+// reading at the moment. I modified the shape to make it easier to build in
+// CFDG, and added some TODO comments about things I tried before realizing they
+// were only supported in version 3.
+
+path pentagram {
+	MOVETO{x cos(90-144) y sin(90-144)}
+	4* {r 144} LINETO{y 1}
+	CLOSEPOLY{}
+	STROKE{}
+}
+
+rule many_pentagram {
+	pentagram{}
+	// TODO: After conversion to 3.0, add "h 0…360" and "r frame()" parameters
+	//       This will make each pentagram a random color and add rotation.
+	//       Potential bugs:
+	//       	color might be regenerated each frame
+	//       	might need adjustment for aesthetic reasons
+	many_pentagram{size 0.381966 f 0}
+}

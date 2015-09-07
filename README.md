@@ -120,8 +120,8 @@ might add to your partner's work?
 - [x] Read Fowler's [introduction to DSLs][Fowler]
 - [x] Find a DSL
 - [x] Describe your DSL's implementation and semantics in `my-dsl.md`
-- [ ] Write a ContextFree program in `firstname_lastname.cfdg`
-- [ ] Make and save a pretty picture in `firstname_lastname_variant.png`
+- [x] Write a ContextFree program in `firstname_lastname.cfdg`
+- [x] Make and save a pretty picture in `firstname_lastname_variant.png`
 - [ ] Answer the questions in `context-free.md`
 - [ ] Submit your work
 - [ ] Comment on your critique partner's work

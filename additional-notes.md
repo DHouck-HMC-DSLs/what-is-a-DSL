@@ -23,3 +23,14 @@ have had equal trouble describing Markdown’s computational model.
 If for some reason I misunderstood the extent of the assignment and I was
 supposed to write about a more computational DSL, I will be happy to write
 another report on tup.
+
+# Running CFDG
+
+I couldn’t find a GUI; I think that may only be available for Windows. Thus, I
+ran it from the command line instead of using the Render menu.
+
+# PNG File name
+
+The writeup says the variant number should be three letters. Maybe I’m looking
+in the wrong place, but the variant numbers I saw were six letters. This may be
+related to my using the command line.
